@@ -1,0 +1,39 @@
+body{
+    background: lightgrey;
+}
+.abacus{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operations {
+    background: teal;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 300px;
+}
+form .showcase{
+    display: flex;
+    justify-content: flex-end;
+}
+ form .showcase input {
+    padding:10px ;
+    display: flex;
+    text-align: right;
+}
+.operations form button {
+    width: 45px;
+    height:45px ;
+    border-radius: 8px;
+    margin-top: 8px;
+    border:0 ;
+    outline: 0;
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.9);
+}
